@@ -1,18 +1,10 @@
-# Learning to Drive - A Beginners Guide to Deep RL for Autonomous Vehicles
-
-![Reach Target Agent](./images/reach-target-3-500w.gif)
-
-This is the code repo to accompany the Learning to Drive series of blog posts.
-
-  1. Learning to Drive (ReachTarget agent): [blog](http://auro.ai/blog/2020/05/learning-to-drive/) | [code](./Assets/ReachTarget)
-
-Code was developed in Unity 2019.3.4 using ML-Agents Beta 0.15.1. It is provided here for informational purposes with no warrants of any kind. Feel free to experiment, enjoy and let us know what you think!
+Code was developed in Unity 2019.3.4 using ML-Agents Beta 0.15.1.
 
 ---
 
 ## Get Started
 
-Before anything else, we strongly suggest you follow the ML Agents [Installation](https://github.com/Unity-Technologies/ml-agents/blob/0.15.1/docs/Installation.md) and [Basic](https://github.com/Unity-Technologies/ml-agents/blob/0.15.1/docs/Basic-Guide.md) guides. This will help you install all the needed prerequisites and get you familiar with working with the ML-Agents Toolkit. We also suggest you have a look at the blog posts above to get an idea of what these environments are meant to achieve.
+Before anything else, I strongly suggest you follow the ML Agents [Installation](https://github.com/Unity-Technologies/ml-agents/blob/0.15.1/docs/Installation.md) and [Basic](https://github.com/Unity-Technologies/ml-agents/blob/0.15.1/docs/Basic-Guide.md) guides. This will help you install all the needed prerequisites and get you familiar with working with the ML-Agents Toolkit. We also suggest you have a look at the blog posts above to get an idea of what these environments are meant to achieve.
 
 **Important:** Make sure you have checked out the `0.15.1` ML Agents release.
 
@@ -23,11 +15,11 @@ cd ml-agents/ml-agents/ && pip install -e .
 
 ## Opening the Project in Unity
 
-Perhaps the easiest way to manage your Unity projects is to use the [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html). You can add this repo as a project by simply clicking the **Add** button and selecting the root `learning-to-drive/` directory.
+Perhaps the easiest way to manage your Unity projects is to use the [Unity Hub](https://docs.unity3d.com/Manual/GettingStartedInstallingHub.html). You can add this repo as a project by simply clicking the **Add** button and selecting the root `Collision-Avoidance-Boat-Simplified/` directory.
 
 ## Running the Examples
 
-In the Assets folder, you can find the Unity Prefabs, Scenes and Scripts needed to reproduce the results in the above blog posts. For example, you can open the baseline `ReachTarget` scene discussed in the Learning to Drive article by going to the `Assets/ReachTarget/Scenes` folder in the Unity **Project** window and opening the `ReachTarget_0` scene.
+In the Assets folder, you can find the Unity Prefabs, Scenes and Scripts needed to reproduce the results.
 
 Note that the pretrained models are not included here and are left as an exercise for the reader. To train the model, first open a terminal, navigate to this project and run
 
